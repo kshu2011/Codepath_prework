@@ -35,5 +35,11 @@ class ViewController: UIViewController {
         //update total amount
         totalLabel.text = String(format: "$%.2f", total)
     }
+    
+    @IBAction func sevenKey(_ sender: Any) {
+        
+        billAmountTextField.text = "7"
+    }
+    
 }
 
